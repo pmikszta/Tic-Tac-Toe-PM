@@ -1,11 +1,8 @@
 package org.example;
-
+//nothing here it just creates a game and starts it
 public class App {
-  public String getGreeting() {
-    return "Hello World!";
-  }
-
-  public static void main(String[] args) {
-    System.out.println(new App().getGreeting());
-  }
+    public static void main(String[] args) {
+         Game game = new Game();
+         game.start();
+    }
 }
