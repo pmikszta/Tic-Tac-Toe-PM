@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.Scanner;
+
 //class for the player in the game
 public class Player {
     private char symbol;
@@ -14,7 +15,7 @@ public class Player {
     public char getSymbol() {
         return symbol;
     }
-    //loop for checking player move
+// checks if move is legal
     public int getMove(Board board) {
         while (true) {
             System.out.print("\nPlayer " + symbol + ", enter a number (1-9): ");
